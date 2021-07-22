@@ -4,12 +4,14 @@ public class MultithreadingTask{
 	 String str = "Java is Nice";
 
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		String str = "Java Is Nice";
 	Thread t1 = new Thread(new Thread1(str));
 	t1.start();
+	t1.join();
 	Thread t2 = new Thread(new Thread2(str));
 	t2.start();
+	t2.join();
 	
 	}
 
