@@ -12,8 +12,8 @@ public class ColllectionTask {
 		al.add(new Trainer(101, "Mangesh", "JAVA", 40000));
 		al.add(new Trainer(102, "Ravi", "JAVA", 45000));
 		al.add(new Trainer(103, "Shubham", "JAVA", 40000));
-		al.add(new Trainer(104, "Omkar", "JAVA", 50000));
-		al.add(new Trainer(105, "Sargam", "JAVA", 20000));
+		al.add(new Trainer(104, "Omkar", "Cpp", 50000));
+		al.add(new Trainer(105, "Sargam", "Python", 20000));
 
 		LinkedList<Trainer> tli = new LinkedList<Trainer>();
 		Iterator<Trainer> itr = al.iterator();
